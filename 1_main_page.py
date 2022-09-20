@@ -1,8 +1,10 @@
 import streamlit as st
 
-st.title("Ola")
+st.title("Buenas Tardes")
 
-my_text = st.text("A newwwww day")
-my_button = st.button("RUN ML")
-my_text = st.text("prueba1")
+my_button = st.button("PINCHE AQUÍ")
+if st.button('PINCHE AQUI'):
+  st.ballons()
+  st.write('FELICIDADES')
+
 
